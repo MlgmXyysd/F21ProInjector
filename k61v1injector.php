@@ -49,7 +49,7 @@ function parseDeviceList($a) {
     return $t;
 }
 
-$v = "1.0";
+$v = "1.1";
 
 print("\033[32m********************************\033[0m" . PHP_EOL);
 print("\033[32m* Qin F21 Pro (k61v1) Injector *\033[0m" . PHP_EOL);
