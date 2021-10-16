@@ -14,7 +14,7 @@ The project proudly uses the [php-adb](https://github.com/MlgmXyysd/php-adb) lib
 1. Download and install PHP 8 for your system from the [official website](https://www.php.net/downloads).
 2. Enable GD extension in `php.ini`.
 3. Place `adb.php` in [php-adb](https://github.com/MlgmXyysd/php-adb) in the directory.
-4. Download platform-tools and place them in `libraries`. Note: MacOS needs to rename `adb` to `adb-darwin`.
+4. Download [platform-tools](https://developer.android.com/studio/releases/platform-tools) and place them in `libraries`. *Note: Mac OS needs to rename `adb` to `adb-darwin`.*
 5. Open the terminal and use PHP interpreter to execute the [script](k61v1injector.php) with the usage.
 6. Wait for the script to run.
 - p.s. Releases has packaged the required files, so you only need to configure the PHP environment.
