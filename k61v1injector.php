@@ -172,9 +172,6 @@ foreach ($t as $d) {
     echo("- Exploiting..." . PHP_EOL);
     $a -> runAdb($i . "shell pm clear " . $n);
     $a -> runAdb($i . "shell am start -n " . $n . "/.MarketActivity");
-    while ($a -> getCurrentActivity($i)[1] !== $n . ".MarketActivity") {
-        sleep(0.1);
-    }
     while (imagecolorat(imagecreatefromstring($a -> getScreenshotPNG($i)), 400, 146) !== 2797016) {
         sleep(0.1);
     }
