@@ -1,5 +1,5 @@
 # k61v1injector
-![Version: 1.0](https://img.shields.io/badge/Version-1.0-brightgreen?style=for-the-badge)
+![Version: 1.1](https://img.shields.io/badge/Version-1.1-brightgreen?style=for-the-badge)
 
 Arbitrary application installer for Qin F21 Pro
 
@@ -23,6 +23,8 @@ The project proudly uses the [php-adb](https://github.com/MlgmXyysd/php-adb) lib
 - [x] Nothing to do.
 
 ## Changelog
+- v1.1:
+    - Fix wrong judgment
 - v1.0:
     - First ver
 

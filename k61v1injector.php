@@ -16,7 +16,7 @@
  * Exploit the vulnerability to install arbitrary applications in k61v1 without ROOT
  * 
  * @author MlgmXyysd
- * @version 1.0
+ * @version 1.1
  * 
  * All copyright in the software is not allowed to be deleted
  * or changed without permission.
@@ -199,10 +199,7 @@ foreach ($t as $d) {
         echo("- First app in the list is installed, uninstalling " . $c[0] . "..." . PHP_EOL);
         $a -> runAdb($i . "shell pm uninstall " . $c[0]);
         $a -> runAdb($i . "shell am start -n " . $n . "/.MarketActivity");
-        while ($a -> getCurrentActivity($i)[1] !== $n . ".MarketActivity") {
-            sleep(0.1);
-        }
-        while (imagecolorat(imagecreatefromstring($a -> getScreenshotPNG($i)), 400, 146) === 2797016) {
+        while (imagecolorat(imagecreatefromstring($a -> getScreenshotPNG($i)), 400, 146) !== 2797016) {
             sleep(0.1);
         }
         $a -> sendInput("tap", "400 170", $i);
