@@ -15,6 +15,9 @@
  * 
  * Exploit the vulnerability to install arbitrary applications in k61v1 without ROOT
  * 
+ * Environment requirement:
+ *   - PHP 8 + GD Extension
+ * 
  * @author MlgmXyysd
  * @version 1.1
  * 
