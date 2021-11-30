@@ -1,4 +1,4 @@
-# k61v1injector
+# F21ProInjector
 ![Version: 1.1](https://img.shields.io/badge/Version-1.1-brightgreen?style=for-the-badge)
 
 Arbitrary application installer for Qin F21 Pro
@@ -15,7 +15,7 @@ The project proudly uses the [php-adb](https://github.com/MlgmXyysd/php-adb) lib
 2. Enable GD extension in `php.ini`.
 3. Place `adb.php` in [php-adb](https://github.com/MlgmXyysd/php-adb) to the directory.
 4. Download [platform-tools](https://developer.android.com/studio/releases/platform-tools) and place them in `libraries`. *Note: Mac OS needs to rename `adb` to `adb-darwin`.*
-5. Open the terminal and use PHP interpreter to execute the [script](k61v1injector.php) with the usage.
+5. Open the terminal and use PHP interpreter to execute the [script](f21proinjector.php) with the usage.
 6. Wait for the script to run.
 - p.s. Releases has packaged the required files, so you only need to configure the PHP environment.
 
@@ -29,4 +29,4 @@ The project proudly uses the [php-adb](https://github.com/MlgmXyysd/php-adb) lib
     - First ver
 
 ## License
-No license, you are only allowed to use this project. All rights are reserved by [MeowCat Studio](https://github.com/MeowCat-Studio), [Meow Mobile](https://github.com/Meow-Mobile) and [MlgmXyysd](https://github.com/MlgmXyysd).
+No license, you are only allowed to use this project. All copyright (and link, etc.) in this software is not allowed to be deleted or changed without permission. All rights are reserved by [MeowCat Studio](https://github.com/MeowCat-Studio), [Meow Mobile](https://github.com/Meow-Mobile) and [MlgmXyysd](https://github.com/MlgmXyysd).
