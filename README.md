@@ -25,7 +25,7 @@ The project proudly uses the [php-adb](https://github.com/MlgmXyysd/php-adb) lib
 ## Changelog
 - v1.2:
 	- Change codename to f21proinjector
-    - Support latest version (f21pro 1.3.0, f21proaae 2.0.7)
+    - Support latest version (f21pro 1.3.0, f21proaae 2.1.7)
 - v1.1:
     - Fix wrong judgment
 - v1.0:
